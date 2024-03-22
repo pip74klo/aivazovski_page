@@ -23,8 +23,14 @@
 }
 
 @media(max-width:480px) {
+  .portfolio {
+    background-color: var(--bg-main-grey);
+    text-align: center;
+    padding: 40px 20px 50px;
+    color: var(--color-main-black);
+  }
   .portfolio-picture {
-    margin: 50px 0 30px;
+    margin: 50px 20px 30px;
     
   }
   .portfolio-description {
