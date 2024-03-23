@@ -37,13 +37,48 @@
     </div>
   </header>
 
+  <div class="mobile-navigation" aria-label="mobile navigation">
+    <label for="toggler-id" aria-label="open-close mobile navigation menu">
+      <svg class="mobile-navigation-burger" aria-label="burger icon">
+        <use href="assets/sprites.svg#burger-icon"></use>
+      </svg>
+    </label>
+
+    <input type="checkbox"  id="toggler-id" class="mobile-navigation-toggler">
+
+    <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+      <ul class="mobile-navigation-list" aria-label="mob header navigation list">
+        <li>
+          <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+        </li>
+        <li>
+          <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+        </li>
+        <li>
+          <a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+        </li>
+        <li>
+          <a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+        </li>
+      </ul>
+
+      <label for="toggler-id" aria-label="open-close mobile navigation menu" class="mobile-navigation-close">
+        <svg class="mobile-navigation-cross" aria-label="cross icon">
+          <use href="assets/sprites.svg#cross-icon"></use>
+        </svg>
+      </label>
+    </nav> 
+  </div>
 
   <main aria-label="main">
     <section class="home" aria-label="home section" id="home-id">
       <div class="container">
         <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
         <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
-        <img class="home-img" src="assets/webp/home.webp" alt="photo of Aivazovski" class="">
+        <img class="home-img" src="assets/webp/home.webp" alt="photo of Aivazovski">
       </div>
     </section>
 
