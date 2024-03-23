@@ -10,15 +10,16 @@
 }
 
 .contacts-button {
+  display: block;
   width: 210px;
   height: 42px;
+  color:#fff;
   background-color: var(--color-main-black);
-  border: none;
   border-radius: 21px;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items:center; */
-  margin: 75px 0 38px;
+  align-items:center;
+  margin: 75px auto 38px;
   cursor: pointer;
 }
 
